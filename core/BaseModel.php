@@ -6,7 +6,7 @@ class BaseModel
 
 	public function __construct()
 	{
-		$this->mysqli = new mysqli('localhost', 'root', '', 'perpus_digital');
+		$this->mysqli = new mysqli('localhost', 'root', '', 'ukk_perpus_ranti');
 	}
 
 	public function getByUsername($username)
